@@ -1,0 +1,43 @@
+.carousel-img {
+  width: 100%;
+}
+.my-work {
+  margin-top: 5%;
+  width: 100%;
+  height: auto;
+  padding: 1%;
+  font-size: 1.1rem;
+  background-color: #f8f9fa;
+}
+.carousel-laptop {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.ri-arrow-left-s-line,
+.ri-arrow-right-s-line {
+  font-size: 36px;
+}
+
+@media (min-width: 1281px) {
+  .ri-arrow-left-s-line,
+  .ri-arrow-right-s-line {
+    font-size: 48px;
+  }
+  .my-work {
+    margin-top: 5%;
+    width: 100%;
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .ri-arrow-left-s-line,
+  .ri-arrow-right-s-line {
+    font-size: 48px;
+  }
+  .my-work {
+    margin-top: 5%;
+    width: 100%;
+    font-size: 1.3rem;
+  }
+}

@@ -1,0 +1,58 @@
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #282828;
+  text-decoration: none;
+}
+
+.contacts-line {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
+  font-size: 1.1rem;
+  height: auto;
+  padding: 1%;
+  background-color: #f8f9fa;
+}
+.contact-me {
+  margin-top: 5%;
+  width: 100%;
+  font-weight: 800;
+}
+.address {
+  font-size: 1rem;
+}
+.ri-instagram-line {
+  font-size: 1.5rem;
+  color: #282828;
+}
+.copywrites {
+  margin-top: 5%;
+  font-size: 0.9rem;
+}
+
+@media (min-width: 1281px) {
+  .address {
+    font-size: 1.2rem;
+  }
+  .ri-instagram-line {
+    font-size: 2rem;
+  }
+  .copywrites {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .address {
+    font-size: 1.2rem;
+  }
+  .ri-instagram-line {
+    font-size: 2rem;
+  }
+  .copywrites {
+    font-size: 1rem;
+  }
+}

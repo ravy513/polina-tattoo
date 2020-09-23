@@ -1,0 +1,54 @@
+.intro {
+  height: 100vh;
+}
+.quotes {
+  margin: auto;
+  font-size: 1.5rem;
+  margin-top: 10%;
+  height: 80%;
+}
+
+.scroll {
+  width: 100%;
+  position: absolute;
+  cursor: pointer;
+  bottom: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.ri-arrow-down-s-line {
+  font-size: 64px;
+  color: #282828;
+}
+.scroll-bttn {
+  display: none;
+  margin-top: 0%;
+}
+.ri-arrow-down-s-line:hover {
+  display: none;
+}
+.scroll:hover .ri-arrow-down-s-line {
+  display: none;
+}
+
+.scroll:hover .scroll-bttn {
+  display: inline-block;
+}
+
+@media (min-width: 1281px) {
+  .quotes {
+    margin: auto;
+    font-size: 3rem;
+    margin-top: 5%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .quotes {
+    margin: auto;
+    font-size: 3rem;
+    margin-top: 5%;
+  }
+}

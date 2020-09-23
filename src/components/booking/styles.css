@@ -1,0 +1,18 @@
+.booking-form {
+  padding: 1.3rem;
+}
+.form-control {
+  margin: 1rem;
+}
+#booking-bttn {
+  border: 2px solid #f8f9fa;
+  background: #282828;
+  color: white;
+  font-size: 1.3rem;
+  width: 8rem;
+}
+#booking-bttn:hover {
+  border: 2px solid #282828;
+  background: white;
+  color: #282828;
+}

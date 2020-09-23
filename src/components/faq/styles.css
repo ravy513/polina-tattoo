@@ -1,0 +1,36 @@
+.faq-div {
+  background-color: #282828;
+  color: #ffffff;
+  margin-top: 5%;
+}
+
+.faq {
+  margin-top: 5%;
+  width: 100%;
+  font-size: 1.1rem;
+  height: auto;
+  padding: 1%;
+  background-color: #f8f9fa;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 1281px) {
+  .faq {
+    margin-top: 5%;
+    width: 100%;
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .faq {
+    margin-top: 5%;
+    width: 100%;
+    font-size: 1.3rem;
+  }
+}
